@@ -1,0 +1,171 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.paper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   padding-bottom: 10px;
+} 
+.big-box {
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    display: none;
+    
+}
+.sasat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   padding-bottom: 5px;
+}
+.hui {
+    width: 100px;
+    height: 50px;
+background-color: black;
+display: none;
+}
+@media (max-width: 616px) {
+  .big-box {
+display: block;
+  }
+  .box {
+    display: none;
+  }
+  body {
+    background-color: yellow;
+  }
+  .hui {
+    display: none;
+  }
+  .boba {
+    display: none;
+  }
+}
+@media (max-width: 466px) {
+    .big-box {
+        display: none;
+    }
+    .hui {
+display: block;
+    }
+    body {
+        background-color: red;
+    }
+    .boba {
+      display: none;
+    }
+}
+.biba {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.boba {
+  width: 80px;
+  height: 50px;
+background-color: blue;
+display: none;
+}
+@media (max-width: 316px) {
+  .big-box {
+    display: none;
+    
+  }
+  .box {
+    display: none;
+  }
+  .hui {
+    display: none;
+
+  }
+  .boba {
+  display: block;
+  }
+  body {
+    background-color: yellow;
+  }
+}
+.pick {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.me {
+  width: 115px;
+  height: 100px;
+background-color: pink;
+display: none;
+}
+@media (max-width: 256px) {
+  .big-box {
+    display: none;
+    
+  }
+  .box {
+    display: none;
+  }
+  .hui {
+    display: none;
+
+  }
+  .boba {
+    display: none;
+
+
+  }
+  .me {
+    display: block;
+  }
+  body {
+    background-color: purple;
+  }
+} 
+.rara {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.lala {
+  width: 240px;
+  height: 100px;
+background-color: pink;
+display: none;
+}
+@media (max-width: 246px) {
+  .big-box {
+    display: none;
+    
+  }
+  .box {
+    display: none;
+  }
+  .hui {
+    display: none;
+
+  }
+  .boba {
+    display: none;
+  }
+  .me {
+    display: none;
+  }
+  
+  .lala {
+    display: block;
+  }
+  body {
+    background-color: purple;
+  }
+} 
